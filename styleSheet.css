@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 .leader{
     font-size: 30px;
 }
