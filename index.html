@@ -16,6 +16,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap" rel="stylesheet">
+    
+        <!--JavaScript-->
+
+        <script src = "myscript.js" defer></script>
+
     </head>
     <body class = "titlefull">
         <header class = "fontme">
@@ -23,18 +28,21 @@
         </header>
         <section class = "fontme padme padtop">
         <article>
-            <h2>Current Standings? (As of: 29/10/2021)</h2>
+        <h2>Current Standings? As of: <span></span></h2>
+        <h3>Mexico race Start (uk time) 05 Dec - 17:30:</h3>
+        <p id="demo"></p>
         <ul>
-            <li class="leader">1st place is Joe with 36.5 points</li>
-            <li>2nd place is Ben with 30 points</li>
-            <li>3rd place is Sam with 27 points</li>
-            <li>4th place is Tom with 24.5 points</li>
+            <li class="leader">1st place is Ben with 41 points</li>
+            <li>2nd place is Joe with 40 points</li>
+            <li>3rd place is Sam with 38.5 points</li>
+            <li>4th place is Tom with 25.5 points</li>
             <li><a href= "https://www.formula1.com/en/results.html/2021/drivers.html" target= "_blank">Click here for official F1 website results (opens in new tab)</a></li>
             <li><br><a href= "https://whendidmazepinspin.com" target= "_blank">Click to see when Mazispin last spun!! (opens a new tab)</a></li>
         </ul>
         <h3 class= "fontme">Video of the week</h3>
-        <iframe class="youtube" width="420" height="345" src="https://www.youtube.com/embed/3MZKuNbI6Lo">Vid of the week</iframe>
-        
+            <div class = "youtube">
+                <iframe  src="https://www.youtube.com/embed/3MZKuNbI6Lo">Vid of the week</iframe>
+            </div>
     </article>
 
             <article>
@@ -96,5 +104,7 @@
         <footer class ="fontme">
             <p>&copy;FormulaJoe</p>
         </footer>
+
+        <script src ="myscript.js"></script>
     </body>
 </html>
