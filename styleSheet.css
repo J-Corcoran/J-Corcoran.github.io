@@ -6,6 +6,11 @@
 }
 .fontme {
   font-family: "Oxygen", sans-serif;
+  text-align: center;
+}
+
+.firstSection {
+  margin-top: 80px;
 }
 
 .fontme p {
@@ -29,8 +34,11 @@
   color: white;
   margin-top: 0px;
   padding: 1%;
-  margin: 1.5%;
-  font-size: 3em;
+  margin: 0;
+  font-size: 2em;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 ul {
