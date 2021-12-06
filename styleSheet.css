@@ -102,13 +102,6 @@ figcaption {
   font-style: bold;
 }
 
-.youtube {
-  height: 450px;
-  width: max-content;
-  overflow: hidden;
-  padding: 0;
-}
-
 #demo {
   background-color: #e10600;
   color: #ddd;
