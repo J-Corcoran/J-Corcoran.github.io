@@ -1,7 +1,7 @@
 Hi,
 
 I've made this website mainly as a sandbox for trying out new things I've been learning. 
-It's based on a championship me and a few of my family have had where we try to predict the winners of each F1 race, we'll all chip in to pay the winner's goKarting when we all go. 
+It's based on a championship me and a few of my family been running between us, where we try to predict the winners of each F1 race, we'll all chip in to pay the winner's goKarting when we all go. 
 
 How it's looking at the moment: 
 
