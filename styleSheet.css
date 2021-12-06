@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+#clickMe {
+  font-size: 0.75em;
+  font-weight: 300;
+}
 .leader {
   font-size: 30px;
 }
