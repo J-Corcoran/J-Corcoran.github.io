@@ -1,6 +1,7 @@
 Hi,
 
 I've made this website mainly as a sandbox for trying out new things I've been learning. 
+I've also been using this to get to grips with Git Version control and have been using the command line to do so. 
 It's based on a championship me and a few of my family have been running between us, where we try to predict the winners of each F1 race, we'll all chip in to pay the winner's goKarting when we all go at the end of the year.  
 
 How it's looking at the moment: 
