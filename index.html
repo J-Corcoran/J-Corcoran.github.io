@@ -21,6 +21,7 @@
 
         <script src = "myscript.js" defer></script>
         <script src = "randomTop3.js" defer></script>
+        <script src = "spin.js" defer></script>
     </head>
     <body class = "titlefull">
         <header class = "fontme">
@@ -29,25 +30,34 @@
         <section class = "fontme padme padtop">
         <article class = "firstSection">
         <h2>Current Standings? As of: <span></span></h2>
-        <h3>Abu Dhabi #Final race of 2021# Start (uk time) 12 Dec - 13:00</h3>
+        <h3>Final Race ended 12th December 2021 with Max Verstappen taking the Championship. <br>
+        F1 2022 due to start in 20 March 2022. Countdown below! <br>
+        First race in Bahrain:</h3>
         <p id="demo"></p>
         <ul>
-            <li class="leader">1st place is Sam with 45.5 points</li>
-            <li>2nd place is Ben with 44 points</li>
-            <li>3rd place is Joe with 41 points</li>
+            <li class="leader">The Winner of the 2021 F1 Top Three is Joe with 46 points, thanks to a last minute controversial safety car. 
+                </li>
+            <li>2nd place is Sam with 45.5 points</li>
+            <li>3rd place is Ben with 44 points</li>
             <li>4th place is Tom with 25.5 points</li>
             <li><a href= "https://www.formula1.com/en/results.html/2021/drivers.html" target= "_blank">Click here for official F1 website results (opens in new tab)</a></li>
             <li><br><a href= "https://whendidmazepinspin.com" target= "_blank">Click to see when Mazispin last spun!! (opens a new tab)</a></li>
         </ul>
         <h2>
             Can't think of a top 3 yourself? 
+        </h2>
            <p> 
             <button onclick= "randomTopThree()"> Click for random</button>
             <button onclick= "hideMe()">Hide/Unhide</button>
+        
             <ul id="clickMe">
-            </p>
+            
             </ul>
-        </h2>
+        </p>
+        <figure>
+        <img src="./pics/spinme.png" id="mazespin" onclick="spinPic()"/>
+        <figcaption>Click to Spin ME!</figcaption>
+        </figure>        
     </article>
 
             <article>

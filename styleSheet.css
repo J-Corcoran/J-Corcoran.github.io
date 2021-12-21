@@ -1,8 +1,13 @@
 * {
   box-sizing: border-box;
 }
+
+#mazespin {
+  height: 15em;
+}
+
 #clickMe {
-  font-size: 0.75em;
+  font-size: 1em;
   font-weight: 300;
 }
 .leader {
@@ -115,8 +120,8 @@ figcaption {
 }
 
 #demo {
-  background-color: #e10600;
-  color: #ddd;
-  display: inline;
-  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  padding: 20px;
 }
