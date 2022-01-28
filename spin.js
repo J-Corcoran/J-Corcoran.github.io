@@ -13,3 +13,5 @@ document.getElementById("mazespin").animate([
  
 };
 
+const spinMe = document.getElementById("mazespin")
+  spinMe.addEventListener("click", spinPic, false);

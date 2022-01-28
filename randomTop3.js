@@ -51,3 +51,10 @@ const hideMe = () => {
       x.style.display = "none";
     }
   }
+
+  //Adding event listeners
+const chooseRandom = document.getElementById('chooseRandom');
+  chooseRandom.addEventListener('click', randomTopThree, false);
+
+const hideList = document.getElementById('hideList');
+  hideList.addEventListener('click', hideMe, false);
