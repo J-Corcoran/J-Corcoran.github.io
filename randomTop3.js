@@ -1,25 +1,53 @@
 const drivers = [
     'Hamilton', 
+    'Hamilton',
+    'Hamilton',
+    'Hamilton',
+    'Verstappen',
+    'Verstappen',
+    'Verstappen',
     'Verstappen', 
     'Perez', 
+    'Perez',
+    'Perez',
+    'Bottas', 
     'Bottas', 
     'Sainz', 
-    'Mazepin', 
+    'Sainz', 
+    'Sainz', 
+    'Sainz', 
     'Leclerc', 
+    'Leclerc', 
+    'Leclerc', 
+    'Vettel',
+    'Vettel',
     'Vettel', 
     'Ricciardo',
+    'Ricciardo',
+    'Ricciardo',
+    'Norris',
     'Norris', 
+    'Norris', 
+    'Norris',  
+    'Russell',
+    'Russell',
     'Russell',
     'Latifi',
     'Schumacher',
-    'Giovinazzi',
-    'Raikkonen',
+    'Alonso',
     'Alonso',
     'Ocon',
-    'Perez',
+    'Ocon',
     'Gasly',
-    'Tsunoda'
-]
+    'Gasly',
+    'Tsunoda',
+    'Stroll',
+    'Albon',
+    'Albon',
+    'Guanyu',
+    'Magnussen',
+    'Magnussen'
+  ]
 
 let randomTopThree = () =>{
     let pick = []
@@ -29,6 +57,7 @@ let randomTopThree = () =>{
     let picker = drivers[Math.floor(Math.random() * drivers.length)];
     	
       if (picker === pick[0] || picker === pick[1] || picker === pick[2]){
+        continue;
         } else {
       pick.push(picker)
           i++
@@ -42,7 +71,12 @@ let randomTopThree = () =>{
     document.getElementById("clickMe").innerHTML = `Your random top 3 is: ${text}`;
 }
 
+$('#chooseRandom').on('click', event =>{
+  randomTopThree();
+  $('#clickMe').slideDown(500);
+})
 //below allows you to hide and unhide the randomized list without re-running.
+/*
 const hideMe = () => {
     var x = document.getElementById("clickMe");
     if (x.style.display === "none") {
@@ -51,10 +85,18 @@ const hideMe = () => {
       x.style.display = "none";
     }
   }
+  */
+
+$('#hideList').click(() => {
+  $('#clickMe').slideToggle(500);
+});
 
   //Adding event listeners
-const chooseRandom = document.getElementById('chooseRandom');
-  chooseRandom.addEventListener('click', randomTopThree, false);
 
-const hideList = document.getElementById('hideList');
+/*
+  const chooseRandom = document.getElementById('chooseRandom');
+  chooseRandom.addEventListener('click', randomTopThree, false);
+*/
+/*const hideList = document.getElementById('hideList');
   hideList.addEventListener('click', hideMe, false);
+  */
