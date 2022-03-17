@@ -12,6 +12,11 @@
   font-size: 20px;
   font-weight: 300;
 }
+@media (max-width: 768px) {
+  .rules {
+    text-align: left;
+  }
+}
 .rulesLine {
   text-decoration: underline;
   font-weight: bold;
