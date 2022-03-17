@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
 }
-
+#engineList {
+  font-weight: bold;
+}
+#notAllowed {
+  color: #e10600;
+  font-weight: bold;
+}
 #standings {
   border-color: black;
 }
