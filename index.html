@@ -34,19 +34,21 @@
         <h3>F1 2022 due to start in 20 March 2022. Countdown below! <br>
         First race in Bahrain:</h3>
         <p id="demo"></p>
+        <h2 class="rulesTitle">New Rules for 2022</h2>
+        <ul class="rules" >
+            <li><span class="rulesLine">First:</span> Pick usual top 3 podium prediction.</li>
+            <li><span class="rulesLine">Second:</span> Pick just 1 wildcard driver (different to podium choice) they score half points if they finish in top 3.</li>
+            <li><span class="rulesLine">Third:</span> Given a Random Engine manufacturer <span class="rulesLine">(red button below)</span>, which will be clicked and screenshotted before before qualifying and the winner of the race gets 1 point. </li>
+        </ul>
         <ul id="standings">
-            <li>The Winner of the 2021 F1 Top Three is Joe with 46 points, thanks to a last minute controversial safety car. 
-                </li>
-            <li>2nd place is Sam with 45.5 points</li>
-            <li>3rd place is Ben with 44 points</li>
-            <li>4th place is Tom with 25.5 points</li>
+
             <li><a href= "https://www.formula1.com/en/results.html/2021/drivers.html" target= "_blank">Click here for official F1 website results (opens in new tab)</a></li>
             
         </ul>
         
         <h2>Engine Manufacturer Assignment</h2>
         <p> 
-            <button id="chooseEngine">Click to Assign</button>
+            <button role="button" id="chooseEngine" class="button-24">Click to Assign</button>
             <p id="notAllowed"></p>
             <ul id="engines">
             </ul>
@@ -56,8 +58,8 @@
             Can't think of a top 3 yourself? 
         </h2>
            <p> 
-            <button id="chooseRandom">Click for random</button>
-            <button id="hideList">Hide/Unhide</button>
+            <button role="button" id="chooseRandom" class="button-37">Click for random</button>
+            <button role="button" id="hideList" class="button-37">Hide/Unhide</button>
             
             <ul id="clickMe">
             
@@ -69,19 +71,13 @@
     </article>
 
             <article>
-                <h2>So what are the rules?</h2>
-                <p>Before the start of the season, pick your top 3 teams and top 3 overall drivers championship finishing positions.</p>
-                <p>Each week you will then:</p>
-                <ol>
-                    <li>Pick your podium prediction (before qualifying/ideally no later than before FP3)</li>
-                    <li>Pick a "Wildcard" podium, this is your second chance at predicting a podium, but you cannot re-use any drivers from step 1. (again no later than FP3).</li>
-                </ol>
+                
                 <p>The important bit, how are points awarded? It's simple see the table below:</p>
                     <table id= "tableStyle">
                         <tr>
                             <th></th>
                             <th>Main prediction</th>
-                            <th>Wildcard prediction</th>
+                            <th>Your 1 Chosen Wildcard Driver</th>
                         </tr>
                         <tr>
                             <td>1st place points:</td>
@@ -101,18 +97,22 @@
                         <tr>
                             <td>Match all 3?!!</td>
                             <td>1 additional Point for main</td>
-                            <td>1 for wildcard fullhouse (it ain't likely gonna happen)</td>
+                            <td>N/A</td>
                         </tr>
                         <tr>
                             <td>Best you can get...</td>
-                            <td>7 points (all three main baby!)</td>
-                            <td>4 points (you wild!!) </td>
+                            <td>7 points (whoop whoop!)</td>
+                            <td>1.5 points</td>
                         </tr>
                     </table>
             </article>
             <article>
                 <h2>So what happens at the end of the season?</h2>
-                <p>The winner is crowned as the ultimate champion and gets a free ride go-karting (and 1 free beer from each of the other contestants??!)</p>
+                <p>The winner is crowned as the ultimate champion and gets a free ride go-karting.<br><br>
+                <span class="rules">Past champions:</span><br> 
+                Joe (2021)
+                </p>
+    
                 <div>
                 <figure></figure>
                     <img class = "padme" src="pics/kart.jpg" alt="karting">
