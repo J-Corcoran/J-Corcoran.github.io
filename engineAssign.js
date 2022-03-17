@@ -1,8 +1,8 @@
 const engineManufacturer = [
     "Mercedes",
     "Red Bull Powertrains",
-    "Ferrari",
-    "Renault" 
+    "Renault",
+    "Ferrari"
 ];
 
 let engineAssign = () =>{

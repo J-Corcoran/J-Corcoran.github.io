@@ -130,7 +130,7 @@
 .pageHeader {
   text-align: center;
   background-color: #e10600;
-  color: white;
+  color: rgba(255, 255, 255, 0.986);
   margin-top: 0px;
   padding: 1%;
   margin: 0;
