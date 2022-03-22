@@ -2,7 +2,7 @@ let todayDate = new Date();
 document.querySelector('span').innerHTML = todayDate.toDateString();
 
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 20, 2022 13:00:00").getTime();
+var countDownDate = new Date("Mar 27, 2022 18:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -22,7 +22,9 @@ var x = setInterval(function() {
   // Output the result in an element with id="demo"
   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
-    
+  
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
