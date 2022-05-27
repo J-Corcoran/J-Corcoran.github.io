@@ -55,7 +55,7 @@ let engineAssign = () => {
 
 let count = 0;
 
-$("#chooseEngine").on("click", (event) => {
+$("#chooseEngine").on("click", () => {
   if (count >= 1) {
     document.getElementById("notAllowed").innerHTML =
       "You can only click this once!";
